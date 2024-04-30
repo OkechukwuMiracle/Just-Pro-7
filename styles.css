@@ -719,7 +719,7 @@ h6 {
         width: 100%;
     }
     .post-1 {
-        width: 20%;
+        width: 30%;
         height: 60%;
         font-size: 1.3rem;
         margin-right: 2rem;
@@ -941,7 +941,7 @@ h6 {
         grid-area: 14 / 1 / 23 / 13;
     }
     .post-10, .post-11, .post-12 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
     .Craigbator {
         font-size: 0.8rem;
@@ -981,7 +981,7 @@ h6 {
         width: 17%;
     }
     .post-5 {
-        width: 40%;
+        width: 38%;
     }
     h6 {
         font-size: 0.9rem;
