@@ -783,11 +783,13 @@ h6 {
         background: white;
         top: 0;
         z-index: 3;
-        height: 13vh;
+        height: 11vh;
     }
+
     .descendant_1, .icon {
         display: none;
     }
+
     .h1_container {
         width: 40%;
         margin: 0;
@@ -802,9 +804,9 @@ h6 {
         margin: 0 auto;
         position: fixed;
         z-index: 1;
-        top: 13vh;
+        top: 11vh;
         background: #FFFFFF;
-        height: 87vh;
+        height: 89vh;
     
     }
 
@@ -814,8 +816,7 @@ h6 {
     }
 
     .logo_cont {
-        /* margin-top: 3rem; */
-        padding: 16% 0;
+        padding: 4% 0;
     }
 
     .menu.visible {
@@ -829,7 +830,7 @@ h6 {
     .item-list {
         display: block;
         justify-content: center;
-        padding-top: 3%;
+        padding-top: 2%;
         padding-right: 3%;
     } 
 
@@ -848,7 +849,7 @@ h6 {
 
     .close-list {
         display: none;
-        padding-top: 3%;
+        padding-top: 2%;
         padding-right: 3%;
     }
     
@@ -864,7 +865,9 @@ h6 {
         margin-top: 1.5rem;
         position: relative;
         width: 100%;
+        margin-top: 11vh;
     }
+
     .item-1 {
         grid-area: 1 / 1 / 1 / 5;
     }
