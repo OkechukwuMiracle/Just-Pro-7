@@ -53,9 +53,10 @@ h1 {
     color:  #F65050;
 }
 
-.item-list {
+.item-list, .close-list {
     display: none;
 }
+
 
 .section_2 {
     display: flex;
@@ -102,6 +103,10 @@ h2 {
 
 .search {
     padding-left: 0.9rem;
+}
+
+.menu {
+    display: none;
 }
 
 .section_3 {
@@ -772,23 +777,83 @@ h6 {
         padding: 0;
     }
     .section_1 {
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
+        position: fixed;
+        background: white;
+        top: 0;
+        z-index: 3;
+        height: 13%;
     }
-    .descendant_1, .icon, .section_2 {
+    .descendant_1, .icon {
         display: none;
     }
     .h1_container {
         width: 40%;
         margin: 0;
+        padding-left: 3%;
     }
+
+    .menu {
+        display: none;
+        text-align: center;
+        line-height: 3rem;
+        width: 100%;
+        margin: 0 auto;
+        position: fixed;
+        z-index: 1;
+        top: 13%;
+        background: #FFFFFF;
+    
+    }
+
+    .menu-home {
+        background: #F65050;
+        color: #FFFFFF;
+    }
+
+    .logo_cont {
+        margin-top: 3rem;
+    }
+
+    .menu.visible {
+        display: block;
+    }
+
+    .menu.invisible {
+        display: none;
+    }
+
     .item-list {
         display: block;
         justify-content: center;
+        padding-top: 3%;
+        padding-right: 3%;
+    } 
+
+    .section_1.visible {
+        display: flex;
     }
-    .list {
-        padding-top: 0.5rem;
-    }   
+
+
+    .item-list.invisible  {
+        display: none;
+    }
+
+    .close-list.visible {
+        display: block;
+    }
+
+    .close-list {
+        display: none;
+        padding-top: 3%;
+        padding-right: 3%;
+    }
+    
+    .section_2 {
+        display: none;
+    }
+    
     .section_3 {
         display: grid;
         grid-template-rows: repeat(3, 21.5em) ;
