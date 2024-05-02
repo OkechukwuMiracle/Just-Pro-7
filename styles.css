@@ -804,6 +804,7 @@ h6 {
         z-index: 1;
         top: 13%;
         background: #FFFFFF;
+        height: 100%;
     
     }
 
@@ -813,7 +814,8 @@ h6 {
     }
 
     .logo_cont {
-        margin-top: 3rem;
+        /* margin-top: 3rem; */
+        padding: 16% 0;
     }
 
     .menu.visible {
